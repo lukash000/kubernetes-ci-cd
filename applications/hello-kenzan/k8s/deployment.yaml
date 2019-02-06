@@ -30,7 +30,7 @@ spec:
         tier: hello-kenzan
     spec:
       containers:
-      - image: ${imageName}
+      - image: 127.0.0.1:30400/hello-kenzan:$tag
         name: hello-kenzan
         ports:
         - containerPort: 80
