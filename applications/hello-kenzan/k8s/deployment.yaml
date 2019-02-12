@@ -30,7 +30,7 @@ spec:
         tier: hello-kenzan
     spec:
       containers:
-      - image: 127.0.0.1:30400/hello-kenzan:$tag
+      - image: registry.ultimo.pl/ldamrath/hello-kenzan:$tag
         name: hello-kenzan
         ports:
         - containerPort: 80
